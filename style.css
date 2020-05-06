@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Staatliches&display=swap');
+
+body {
+  background-color: #f1faee;
+}
+
+#profile-picture {
+  border-radius: 50%;
+}
+
+h1,h2 {
+  color: #264653;
+  font-family:'Staatliches';
+  font-size: 30px
+  line-height: 10px;
+}
+
+h3 {
+  color: #264653;
+  font-family:'Staatliches';
+  font-size: 20px
+}
+
+p {
+  color: #2a9d8f;
+  font-family: 'Open Sans';
+  line-height: 18px;
+  font-size: 15px;
+  margin-bottom: 30px
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Staatliches'
+}
+
+a:hover{
+  opacity: .5;
+}
+
+.btn-orange {
+  transition: ease all 1s;
+  background-color: #e76f51;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 4px 4px 4px 4px;
+  text-decoration: none;
+  margin: 10px
+}
+
+.card-white {
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: white;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 3px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  }
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul {
+  display: block;
+  padding-inline-start: 40px;
+  color: #264653
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card-white {
+    width: 350px;
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .card-white {
+    width: 250px;
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+
+  .container {
+    width: 300px;
+  }
+
+  .card-white {
+    width: 200px;
+  }
+}
