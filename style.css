@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Staatliches&display=swap');
 
 body {
-  background-color: #f1faee;
+  background-image: url('https://media.giphy.com/media/3o6fIYWU6HVdxrqmBO/giphy.gif');
+  background-size: cover;
 }
 
 #profile-picture {
@@ -9,20 +10,18 @@ body {
 }
 
 h1,h2 {
-  color: #264653;
+  color: white;
   font-family:'Staatliches';
   font-size: 30px
   line-height: 10px;
 }
 
 h3 {
-  color: #264653;
-  font-family:'Staatliches';
   font-size: 20px
 }
 
 p {
-  color: #2a9d8f;
+  color: white;
   font-family: 'Open Sans';
   line-height: 18px;
   font-size: 15px;
@@ -48,15 +47,16 @@ a:hover{
   margin: 10px
 }
 
-.card-white {
+.card-black {
   text-align: center;
   padding: 30px;
   border-radius: 5px;
-  background-color: white;
+  background-color: black;
   width: 500px;
   margin: 20px auto;
   border-radius: 3px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  opacity: .9;
 }
 
 .container {
